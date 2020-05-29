@@ -1,0 +1,162 @@
+/* Main Styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #72607d;
+  color: #fff;
+}
+
+h1 {
+  font-size: 39px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 48.8px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+/* Utility Classes */
+.tw-color {
+  background: #c0b9ad;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+/* Wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  padding-top: 20px;
+}
+
+.wrapper > div {
+  padding: 1em;
+}
+
+.box-1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #fcc763;
+}
+
+.box-2 {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.box-3 {
+  grid-column: 3/5;
+  grid-row: 1/4;
+  background-image: url('../img/salon-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-4 {
+  grid-column: 5/6;
+  grid-row: 1/4;
+  background-image: url('../img/salon-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-5 {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.box-6 {
+  grid-column: 2/4;
+  grid-row: 4/7;
+  background-image: url('../img/salon-4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-7 {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  background: #fb8c6f;
+}
+
+.box-7 h2 {
+  /* padding-top: 30px; */
+}
+
+.box-8 {
+  grid-column: 5/6;
+  grid-row: 4/7;
+}
+
+.box-9 {
+  grid-column: 1/2;
+  grid-row: 5/7;
+  background-image: url('../img/salon-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-10 {
+  grid-column: 4/5;
+  grid-row: 5/8;
+  background-image: url('../img/salon-5.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-11 {
+  grid-column: 5/6;
+  grid-row: 7/8;
+  background-image: url('../img/salon-6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-12 {
+  grid-column: 1/3;
+  grid-row: 7/9;
+  background-image: url('../img/salon-7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-13 {
+  grid-column: 3/4;
+  grid-row: 7/9;
+}
+
+.box-14 {
+  grid-column: 4/6;
+  grid-row: 8/9;
+  background-image: url('../img/salon-8.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
